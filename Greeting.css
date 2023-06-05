@@ -29,6 +29,7 @@
     }
     .box img{
         width: 40%;
+        height: 12vh;
         margin-top: 2vh;
         margin-left: 30%;
         background-color: #4ea0e455;
@@ -48,7 +49,7 @@
         }
     }
     .box p{
-        margin-top: 3vh;
+        margin-top: 5vh;
         margin-left: 1.5vh;
         margin-right: 1vh;
         padding: 20px;
@@ -60,7 +61,7 @@
         animation-duration: 1s;
         animation-delay: 1s;
         animation-fill-mode: forwards; 
-        font-size: 3vh;
+        font-size: 2vh;
         position: absolute;
     }
     @keyframes fade1 {
@@ -79,7 +80,7 @@
         border: 1px solid black;
         border-color: #4ea0e455;
         border-radius: 20px;
-        margin-top: 40vh;
+        margin-top: 37vh;
         left: 30%;
         font-size: 120%;
         opacity: 0;
