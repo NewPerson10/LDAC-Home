@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name = "viewport" content="width = device-width, viewport-fit=cover">
+    <link rel="icon" href="images/photo-output (10).PNG" type="image/png">
+    <link rel = "stylesheet" href="Greeting.css">
+  
+
+</head>
+
+<body>
+    <section id="Home">
+        <section id="top">
+            <div class="taskbar"> 
+                <img src="images/photo-output (10).PNG">
+            <div class="logo-text"><p><b>LDAC</b></p></div>
+        
+                <div class="search">  
+                    <input type="text" id="search-bar" placeholder="Search...">
+                    <button type="submit" id="search-button">
+                    <img src="images/icons8-search-30.png" alt="search-icon">
+                    </button>
+                </div>
+                
+                <div class ="sign-in">
+                    <a href="#"><span></span>  <img src="images/2.PNG"> </a>
+                   
+                </div>
+            </div> 
+    
+    
+    
+            <div id ="contact">
+                <h5><b> <img src="images/3.PNG" id="contactimg"> </b></h5>
+                
+            </div>
+    
+            <div id="contactnav">
+                <nav>
+                    <ul>
+                        <li><a href="#"> Press "CONTACT" to exit</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <script>
+                var contact=document.getElementById("contact")
+                var contactnav=document.getElementById("contactnav")
+                var contactimg=document.getElementById("contactimg")
+                contactnav.style.right ="-500px";
+            contact.onclick = function(){
+                if(contactnav.style.right =="-500px"){
+                    contactnav.style.right = "25px";
+                    contact.src="images/3.PNG";
+                }
+                else{
+                    contactnav.style.right = "-500px";
+                    contactimg.src="images/3.PNG";
+                }
+            }
+            </script>
+    
+    
+    
+    
+            <div id ="about">
+                <h5><b> <img src="images/1 (1).PNG" id="aboutimg"> </b></h5>
+                
+            </div>
+    
+            <div id="aboutnav">
+                <nav>
+                    <ul>
+                        <li> Press "ABOUT" to exit</li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <script>
+                var about=document.getElementById("about")
+                var aboutnav=document.getElementById("aboutnav")
+                var aboutimg=document.getElementById("aboutimg")
+                aboutnav.style.right ="-500px";
+            about.onclick = function(){
+                if(aboutnav.style.right =="-500px"){
+                    aboutnav.style.right = "25px";
+                    about.src="images/1 (1).PNG";
+                }
+                else{
+                    aboutnav.style.right = "-500px";
+                    aboutimg.src="images/1 (1).PNG";
+                }
+            }
+            </script>
+</section>
+
+        <div class="box">
+            <img src="images/photo-output (10).PNG">
+        <p> Welcome to the Linstead Development Area Committee's Website</p>
+        <button> <a href="https://newperson10.github.io/LDAC/"><b>Enter</b></a> </button>
+    </div>
+
+            <div class="text"><p> Working with the aid of creating a better future for you</p></div>
+      
+    </section>
+
+
+
+</body>
+
+
+
+
+
+
+</html>

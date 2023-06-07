@@ -6,7 +6,7 @@
     }
 
     #Home{
-        background-color: #4ea0e455;
+        background: linear-gradient(rgba(255, 255, 255, 0.5),#3591ce7b);
         position: fixed;
         top: 0;
         left: 0;
@@ -16,6 +16,162 @@
         background-size: cover;
         background-position: center;
     }
+    .taskbar{
+        width: 96%;
+        height:50px;
+        position: absolute;
+        border-radius:5px;
+        z-index: 3;
+        left: 2%;
+        top: 10px;
+        background-color: #025dcd13;
+    }
+    .taskbar img{
+        width: 60px;
+        margin: 5px;
+    }
+    .logo-text{
+        position: absolute;
+        top: 35%;
+        left: 17%;
+        font-size: 90%
+    }
+    .search{
+        position: absolute;
+        height: 30px;
+        width: 500px;
+        top: 7.5%;
+        left: 30%;
+    }
+    #search-bar{
+        position: absolute;
+        top: 20%;
+        height: 30px;
+        width: 150px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        border-color: #4ea0e422;
+        border-radius: 30px;
+        font-size: 100%;
+        text-align: center;
+    }
+    #search-button{
+        width: 20px;
+        height: 20px;
+        top: 25%;
+        position: absolute;
+        left: 110px;
+        background-color: #357ace00;
+        border: 1px solid black;
+        border-color: #357ace00;
+    }
+    #search-button img{
+        width: 20px;
+        height: 20px;
+    }
+    .sign-in{
+        position: absolute;
+        width: 100px;
+        height: 45px;
+        top: 5%;
+        left: 165px; 
+    }
+
+    .sign-in img{
+        width: 20px;
+        height: 20px;
+        padding-left: 100px;
+        padding-top: 10px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    #contact{
+        position: absolute;
+        width: 150px;
+        height: 45px;
+        top: 3vh;
+        left: 160px;
+    }
+
+    #contact img{
+        width: 25px;
+        height: 25px;
+        padding-left: 150px;
+        z-index: 5;
+    }
+    #contactnav{
+        width: 50px;
+        height: 10vh;
+        right: -500px;
+        top: 30vh;
+        background: #ffffff;
+        z-index: 5;
+        transition: 0.5s;
+        text-align: left;
+        border-radius: 50px;
+        position: fixed;
+        transition: 1s ease-in-out;
+
+    }
+    nav ul{
+        padding-top: 350px;
+    }
+    
+    nav ul li{
+        
+        list-style: none;
+        margin: 150px 40px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 200%;
+
+    }
+
+
+
+
+
+    #about{
+        position: absolute;
+        width: 50px;
+        height: 45px;
+        top: 2vh;
+        left: 230px; 
+    }
+    #about img{ 
+        width: 25px;
+        height: 25px;
+        padding-left: 120px;
+        padding-top: 8px;
+    }
+    #aboutnav{
+        width: 50px;
+        height: 10vh;
+        right: -500px;
+        top: 30vh;
+        background: #ffffff;
+        z-index: 5;
+        transition: 0.5s;
+        text-align: center;
+        border-radius: 50px;
+        position: fixed;
+        transition: 1s ease-in-out;
+    }
+    #aboutnav nav ul{
+        padding-top: 10px;
+    }
+    
+    #aboutnav nav ul li{
+        
+        text-decoration: none;
+        color: #000;
+        font-size: 150%;
+        
+    }
+
     .box{
         width: 80%;
         height: 50vh;
@@ -102,5 +258,12 @@
         color:#ffffff;
         cursor: pointer;
         text-decoration: none;
+    }
+
+    .text{
+        margin-top: 90vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
     }
 }
