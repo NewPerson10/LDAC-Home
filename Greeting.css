@@ -296,6 +296,9 @@
             opacity: 1;
         }
     }
+    .box button b{
+        padding: 35%;
+    }
     .box button a{
         color:#ffffff;
         cursor: pointer;
@@ -311,14 +314,14 @@
      #arrow{
         width: 200px;
         height: 100px;
-        margin-top: 10vh;
+        margin-top: 8vh;
         opacity: 0.5;
      }
 
      #arrow2{
         width: 200px;
         height: 100px;
-        margin-top: 47vh;
+        margin-top: 41vh;
         transform: scaleX(-1);
         margin-left: 50%;
         opacity: 0.5;
