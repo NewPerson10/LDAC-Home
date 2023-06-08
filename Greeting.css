@@ -147,7 +147,7 @@
         height: 10vh;
         right: -500px;
         top: 8.5vh;
-        background: #ffffff20;
+        background: #0080ff20;
         z-index: 5;
         transition: 0.5s;
         text-align: left;
@@ -194,7 +194,7 @@
         height: 10vh;
         right: -500px;
         top: 8.5vh;
-        background: #ffffff20;
+        background: #0080ff20;
         z-index: 5;
         transition: 0.5s;
         text-align: left;
@@ -218,12 +218,12 @@
     }
 
     .box{
-        width: 80%;
+        width: 90%;
         height: 50vh;
         position: absolute;
-        background-color: #6d8fcf00;
+        background-color: #ffffff;
         top: 17vh;
-        left: 10%;
+        left: 5%;
         border-radius: 20px;
     }
     .box img{
@@ -316,8 +316,9 @@
         left: 3.5%;
         margin-top: 13vh;
         border-radius: 30px;
+        background-color: #0080ff05;
         border: 1px solid black;
-        border-color: #00000064;
+        border-color: #00000021;
     }
 
     .text{
