@@ -24,7 +24,7 @@
         z-index: 3;
         left: 2%;
         top: 10px;
-        background-color: #ffffff8e;
+        background-color: #ffffffb3;
     }
     .taskbar img{
         width: 60px;
@@ -221,7 +221,7 @@
         width: 80%;
         height: 50vh;
         position: absolute;
-        background-color: #ffffff8e;
+        background-color: #ffffffa1;
         top: 20vh;
         left: 10%;
         border-radius: 20px;
@@ -314,7 +314,7 @@
         margin-top: 13vh;
         border-radius: 30px;
         border: 1px solid black;
-        border-color: #ffffff;
+        border-color: #ffffff64;
     }
 
     .text{
