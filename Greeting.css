@@ -6,7 +6,7 @@
     }
 
     #Home{
-        background: linear-gradient(#3591ce, rgba(0, 0, 0, 0.366)), url(images/hands.png);
+        background-color: #ffffff;
         position: fixed;
         top: 0;
         left: 0;
@@ -24,7 +24,7 @@
         z-index: 3;
         left: 2%;
         top: 10px;
-        background-color: #ffffff6d;
+        border: 1px solid rgba(0, 0, 0, 0.153);
     }
     .taskbar img{
         width: 60px;
@@ -49,7 +49,7 @@
         height: 30px;
         width: 150px;
         background-color: #4ea0e400;
-        border: 1px solid rgba(255, 255, 255, 0.662);
+        border: 1px solid rgba(0, 0, 0, 0.117);
         border-radius: 30px;
         font-size: 100%;
         text-align: center;
@@ -221,8 +221,8 @@
         width: 80%;
         height: 50vh;
         position: absolute;
-        background-color: #ffffff1f;
-        top: 20vh;
+        background-color: #6d8fcf00;
+        top: 17vh;
         left: 10%;
         border-radius: 20px;
     }
@@ -231,7 +231,7 @@
         height: 12vh;
         margin-top: 2vh;
         margin-left: 30%;
-        background-color: #4ea0e4;
+        background-color: #4ea0e434;
         border-radius: 20px;
         opacity: 0;
         animation-name: fade;
@@ -252,7 +252,7 @@
         margin-left: 1vh;
         margin-right: 1vh;
         padding: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.518);
+        border: 1px solid rgba(0, 0, 0, 0.201);
         border-radius: 20px;
         opacity: 0;
         animation-name: fade1;
@@ -261,8 +261,9 @@
         animation-fill-mode: forwards; 
         font-size: 2vh;
         position: absolute;
-        color: #ffffff;
+        color: #000000;
         font-weight: bolder;
+        text-align: center;
     }
     @keyframes fade1 {
         from {
@@ -310,13 +311,13 @@
     }
     .box1{
         width: 360px;
-        height: 570px;
+        height: 57vh;
         position: absolute;
         left: 3.5%;
         margin-top: 13vh;
         border-radius: 30px;
         border: 1px solid black;
-        border-color: #ffffff64;
+        border-color: #00000064;
     }
 
     .text{
