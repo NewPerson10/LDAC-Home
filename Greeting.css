@@ -111,7 +111,7 @@
 #suggestions {
 list-style-type: none;
 background-color: #ffffff86;
-width: 190px;
+width: 200px;
 margin: 0;
 padding-left: 15px;
 padding-top: 15px;
@@ -122,9 +122,10 @@ text-decoration: none ;
 }
 #suggestions li {
 background-color: #0044bb68;
-height: 20px;
-width: 150px;
+height: 40px;
+width: 160px;
 padding: 11px;
+padding-top: 2px;
 cursor: pointer;
 border-radius: 10px;
 margin-bottom:25px;
@@ -132,10 +133,11 @@ text-decoration: none;
 display: inline-block;
 }
 #suggestions li a {
-color: #ffffff;
+color: #000000;
 text-decoration: none;
 width: 200%;
 height: 200%;
+font-weight: bolder;
 }
 
 #suggestions li:hover {
