@@ -6,7 +6,7 @@
     }
 
     #Home{
-        background: linear-gradient(#3591ce5f, rgba(0, 0, 0, 0.366)), url(images/hands.png);
+        background: linear-gradient(#3591ce, rgba(0, 0, 0, 0.366)), url(images/hands.png);
         position: fixed;
         top: 0;
         left: 0;
@@ -24,7 +24,7 @@
         z-index: 3;
         left: 2%;
         top: 10px;
-        background-color: #ffffff13;
+        background-color: #ffffff6d;
     }
     .taskbar img{
         width: 60px;
@@ -231,7 +231,7 @@
         height: 12vh;
         margin-top: 2vh;
         margin-left: 30%;
-        background-color: #4ea0e4a2;
+        background-color: #4ea0e4;
         border-radius: 20px;
         opacity: 0;
         animation-name: fade;
