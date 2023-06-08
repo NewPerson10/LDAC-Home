@@ -24,7 +24,7 @@
         z-index: 3;
         left: 2%;
         top: 10px;
-        background-color: #ffffff;
+        background-color: #ffffff8e;
     }
     .taskbar img{
         width: 60px;
@@ -131,7 +131,7 @@
         width: 30px;
         height: 45px;
         top: 0%;
-        left: 300px;
+        left: 295px;
         z-index: 5;
     }
 
@@ -179,7 +179,7 @@
         width: 30px;
         height: 45px;
         top: 0%;
-        left: 340px; 
+        left: 330px; 
         z-index: 5;
     }
     #about img{ 
@@ -221,7 +221,7 @@
         width: 80%;
         height: 50vh;
         position: absolute;
-        background-color: #ffffffc8;
+        background-color: #ffffff8e;
         top: 20vh;
         left: 10%;
         border-radius: 20px;
@@ -305,6 +305,16 @@
         color:#ffffff;
         cursor: pointer;
         text-decoration: none;
+    }
+    .box1{
+        width: 360px;
+        height: 630px;
+        position: absolute;
+        left: 3.5%;
+        margin-top: 13vh;
+        border-radius: 30px;
+        border: 1px solid black;
+        border-color: #ffffff;
     }
 
     .text{
