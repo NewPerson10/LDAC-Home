@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+        <meta name = "viewport" content="width = device-width, viewport-fit=cover">
+        <link rel="icon" href="images/photo-output (10).PNG" type="image/png">
+        <link rel = "stylesheet" href="LDACwelcome.css">
+</head>
+
+<body>
+    <section  id="cover">
+            <img src="images/photo-output (10).PNG" id="logo">
+            <b><h4 id="logotxt">LDAC</h4></b>
+            <a href="https://newperson10.github.io/LDAC-Register/"> <button id="signup"> Sign Up</button> </a>
+            <div class="covertxt"> 
+                <p><h5>Welcome to the</h5><br><h1>Linstead <br> Development Area <br>Committee's Website</h1></p>
+            </div>
+            <a href="https://newperson10.github.io/LDAC/"> <button id="tour"> Take a Tour</button> </a>
+
+            <div class="socials"> 
+                <a href="https://www.facebook.com/linsteaddac"> <img src="images/facebook-app-symbol.png"> </a>
+                <a href="https://instagram.com/linsteaddac?igshid=MzRlODBiNWFlZA=="> <img src="images/instagram.png"> </a>
+                 <img id= "shareButton" src="images/share.png">
+            </div>
+
+
+            <script>
+                document.getElementById("shareButton").addEventListener("click", function() {
+                  var linkToShare = "https://newperson10.github.io/LDAC/"; // Specify the link you want to share
+            
+                  // Check if the Share API is supported by the browser
+                  if (navigator.share) {
+
+
+                    
+                    navigator.share({
+                      title: "Check out this link",
+                      text: "LDAC, bringing communities closer.",
+                      url: linkToShare
+                    })
+                    .then(function() {
+                      console.log("Link shared successfully!");
+                    })
+                    .catch(function(error) {
+                      console.error("Error sharing link:", error);
+                    });
+                  } else {
+                    // Fallback for platforms that do not support the Share API
+                    var whatsappLink = "https://api.whatsapp.com/send?text=" + encodeURIComponent(linkToShare);
+                    var emailLink = "mailto:?subject=Check%20out%20this%20link&body=" + encodeURIComponent(linkToShare);
+            
+                    // Open WhatsApp share dialog or compose email
+                    window.open(whatsappLink);
+                    window.open(emailLink);
+            
+                    console.log("Link shared through fallback options.");
+                  }
+                });
+              </script>
+    </section>
+
+</body>
+
+
+
+
+
+
+
+</html>
