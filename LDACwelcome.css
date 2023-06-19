@@ -10,10 +10,6 @@
     background-position: center;
     height: 100vh;
 }
-   .logo-container {
-  display: flex;
-  align-items: center;
-}
 #logo{
     margin-top: 20px;
     margin-left: 20px;
@@ -21,7 +17,6 @@
     position: absolute;
     background-color: #3591ce48;
     border-radius: 10px;
-    margin-right: 10px;
 }
 #logotxt{
     margin-left: 100px;
